@@ -20,8 +20,8 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       // AppBar adalah bagian atas halaman yang menampilkan judul.
       appBar: AppBar(
-        // Mengganti warna icon drawer menjadi putih
-        iconTheme: const IconThemeData(color: Colors.white),
+          // Mengganti warna icon drawer menjadi putih
+          iconTheme: const IconThemeData(color: Colors.white),
         // Judul aplikasi "Mental Health Tracker" dengan teks putih dan tebal.
         title: const Text(
           'Mental Health Tracker',
